@@ -1,0 +1,309 @@
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color:rgb(75, 150, 0);
+    display: flex;
+    justify-content: space-between;
+    padding:8px;
+    width: 1380px;
+    overflow-x: hidden;
+    max-width: 100% left;
+}
+
+.form-registrasi {
+    width: 750px;
+    height: 950px;
+    margin:50px 0px 50px 50px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 12%) 0 7px 12px -1px;
+    padding: 20px 100px;
+    float: left;
+}
+
+.nav-bar {
+    /* float: right; */
+    margin-left: 70px;
+    margin-top: 25px;
+    font-family: 'poppins', sans-serif;
+}
+
+.nav-bar-1 {
+    width: 320px;
+}
+
+.information {
+    border-left: 2px solid rgb(75, 150, 0);
+    height: 40px;
+}
+.information h2 {
+    color: rgb(75, 150, 0);
+    padding-left: 12px;
+}
+
+.information-p {
+    padding-left: 15px;
+    font-size: 14px;
+}
+.nyatu {
+    display: flex;
+    margin-left: 12px;
+}
+
+.logo img {
+    width: 65px;
+    height: 75px;
+}
+
+.jdl {
+    margin-top: 6px;
+    font-family: 'poppins', sans-serif;
+    padding-left: 18px;
+}
+
+.link {
+    margin: 28px 100px 0 0;
+}
+.link ul {
+    display: flex;
+    list-style: none;
+}
+.link ul li {
+    padding-left: 52px;
+}
+
+.link ul li a {
+    color:white;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+
+.link a:hover {
+    color: yellow;
+    transition: .2s ease-in-out;
+}
+
+.toogle {
+    display: none;
+}
+.toogle ul li {
+    padding: 12px;
+}
+.link ul li:hover .toogle {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin: 2px 0 0 -25px ;
+}
+
+.link ul li:hover .toogle ul {
+    display: block;
+    margin: 10px;
+}
+.toogle:hover {
+    transition: .2s ;
+}
+
+.page1 {
+    margin-top: 30px;
+}
+
+.header-page h2 {
+    font-family: 'poppins', sans-serif;
+    color: rgb(75, 150, 0);
+}
+
+.header-page p {
+    margin-top: 12px;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+}
+
+.form {
+    margin: 20px 0;
+    width: 700px;
+    height: 600px;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+}
+
+.contens {
+    padding-bottom: 14px;
+}
+
+.textbox {
+    width:500px;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 12px;
+}
+
+.textbox input {
+    border: none;
+    background: none;
+    outline: none;
+    color:black;
+    padding-left: 18px;
+    font-family:'Poppins', sans-serif; 
+    width: 480px;
+    font-size: 14px;
+}
+
+.textdate {
+    font-family: 'poppins', sans-serif;
+}
+
+
+.end {
+    margin-top:32px;
+}
+.end input {
+    padding: 12px 24px;
+    background-color: rgb(75, 150, 0);
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(75, 150, 0);
+    font-family: 'poppins',sans-serif;
+}
+
+.fa-print {
+    margin-right: 7px;
+}
+
+.end input:hover {
+    background-color:  rgb(85, 128, 43);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(85, 128, 43) ;
+    transition: 0.4s ease-in-out;
+}
+
+.contens-jk {
+    margin: 12px 0;
+}
+
+.jk {
+    margin-top: -8px;
+}
+
+.textradio {
+    margin-top: 12px;
+}
+
+.textradio input {
+    margin-left: 18px;
+}
+
+.star {
+    color: red;
+}
+
+/* date */
+.date {
+    width: 180px;
+    background: white;
+    font-family: 'poppins', sans-serif;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.textdate {
+    margin-top: 12px;
+}
+
+/* religion */
+.religion {
+    width: 180px;
+    background: rgb(255, 255, 255);
+    font-family: 'poppins', sans-serif;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.select-religion {
+    margin-top: 12px;
+}
+
+.text {
+    margin-top: 17px;
+}
+
+.nav-bar {
+    margin: 100px 50px;
+}
+
+.all {
+    display: flex;
+}
+
+
+/* //footer// */
+footer {
+    height: 200px;
+    background-color:rgb(75, 150, 0);
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.addr {
+    color: white;
+    font-family: 'poppins',sans-serif;
+    padding: 0 0 18px 0;
+}
+
+#office {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+#address {
+    font-size: 15px;
+}
+
+.line {
+    margin:0 auto 20px;
+    width: 600px;
+    height: 2px;
+    background-color: white;
+}
+
+.linkicon a {
+    color: white;
+    font-size: 26px;
+    margin: 0 30px;
+}
+
+.linkicon a:hover {
+    color: yellow;
+    transition: 0.6s ease;
+}
+
+
+/* @media (max-width: 670px) {
+    .form-registrasi {
+        flex-direction: column;
+    }
+    .nav-bar-1 {
+        margin-top: 200px;
+        margin-left: -200px;
+        width: 500px;
+        left: -90px;
+    }
+
+    .header ul li {
+        flex-direction: column;
+    }
+} */
+

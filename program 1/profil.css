@@ -1,0 +1,263 @@
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    padding:8px;
+    width: 1380px;
+    overflow-x: hidden;
+    max-width: 100% left;
+}
+
+.nyatu {
+    display: flex;
+    margin-left: 12px;
+}
+
+.logo img {
+    width: 65px;
+    height: 75px;
+}
+
+.jdl {
+    margin-top: 6px;
+    font-family: 'poppins', sans-serif;
+    padding-left: 18px;
+}
+
+.link {
+    margin: 28px 100px 0 0;
+}
+.link ul {
+    display: flex;
+    list-style: none;
+}
+.link ul li {
+    padding-left: 52px;
+}
+
+.link ul li a {
+    color:white;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+
+.link a:hover {
+    color: yellow;
+    transition: .2s ease-in-out;
+}
+
+.toogle {
+    display: none;
+}
+.toogle ul li {
+    padding: 12px;
+}
+.link ul li:hover .toogle {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin: 2px 0 0 -25px ;
+}
+
+.link ul li:hover .toogle ul {
+    display: block;
+    margin: 10px;
+}
+.toogle:hover {
+    transition: .2s ;
+}
+
+.page {
+    width: auto;
+    height: 420px;
+    background-image: url(png/kantordesa.png);
+    background-size: cover;
+    text-align: center;
+    margin-top: -150px;
+    padding : 200px;
+    font-family: 'poppins', sans-serif;
+    color: black;
+}
+
+.page h1 {
+    letter-spacing: 3px;
+    margin-top: 40px;
+}
+
+.content {
+    width: 70%;
+    margin:50px auto 0;
+    font-family: 'poppins',sans-serif;
+}
+
+
+.headercontent {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(75, 150, 0);
+}
+
+.paragraftsejarah p {
+    text-align: justify;
+    margin-bottom: 12px;
+}
+
+.jumpenduduk {
+    margin-top: 50px;
+}
+
+.jiwa {
+    display: flex;
+}
+.jiwa1 {
+    width: 325px;
+    height: 150px;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 
+    rgb(0 0 0 / 1%) 0 7px 20px -12px, 
+    rgb(0 0 0 / 2%) 0 4px 25px 0, 
+    rgb(0 0 0 / 20%) 0 8px 10px -5px;
+
+}
+
+.center {
+    width: 325px;
+    height: 150px;
+    text-align: center;
+    padding: 50px;
+    border-left: 2px solid rgb(75, 150, 0);
+    border-right: 2px solid rgb(75, 150, 0);
+}
+
+.geografis {
+    margin-top: 50px;
+}
+
+.maps {
+    height: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.maps iframe{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+.visimisi {
+    margin-top: 50px;
+}
+
+.vm {
+    margin-bottom: 20px;
+}
+
+.vm h4 {
+    margin-bottom: 10px;
+}
+
+.vm p {
+    text-align: justify;
+}
+
+.vm ul {
+    padding-left: 39px;
+}
+
+#visi {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.strukturimg {
+    width: 800px;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+.lineheader {
+        margin:0 auto 20px;
+        width: 600px;
+        height: 2px;
+        background-color: rgb(75, 150, 0);   
+}
+
+
+
+
+
+
+/* //footer// */
+footer {
+    height: 200px;
+    background-color:rgb(75, 150, 0);
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.addr {
+    color: white;
+    font-family: 'poppins',sans-serif;
+    padding: 0 0 18px 0;
+}
+
+#office {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+#address {
+    font-size: 15px;
+}
+
+.line {
+    margin:0 auto 20px;
+    width: 600px;
+    height: 2px;
+    background-color: white;
+}
+
+.linkicon a {
+    color: white;
+    font-size: 26px;
+    margin: 0 30px;
+}
+
+.linkicon a:hover {
+    color: yellow;
+    transition: 0.6s ease;
+}
+
+
+/* @media (max-width: 670px) {
+    .form-registrasi {
+        flex-direction: column;
+    }
+    .nav-bar-1 {
+        margin-top: 200px;
+        margin-left: -200px;
+        width: 500px;
+        left: -90px;
+    }
+
+    .header ul li {
+        flex-direction: column;
+    }
+} */
+

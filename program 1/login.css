@@ -1,0 +1,127 @@
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding:8px;
+}
+
+
+.nyatu {
+    display: flex;
+    margin-left: 12px;
+}
+
+.logo img {
+    width: 65px;
+    height: 75px;
+}
+
+.page {
+    background-image: url(png/kantordesa.png);
+    height: 720px;
+    background-size: cover;
+    text-align: center;
+    margin-top: -100px;
+    padding : 200px;
+}
+
+.page h1 {
+    margin-top: -110px;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    font-family: 'poppins', sans-serif;
+}
+
+.login {
+    width: 450px;
+    margin: auto;
+    padding: 40px 40px 20px 40px;
+    font-family: 'poppins',sans-serif;
+    background-color: white;
+    margin-top: -520px;
+    border-radius: 3px;
+    box-shadow: 
+    rgb(0 0 0 / 56%) 0 7px 20px -12px, 
+    rgb(0 0 0 / 12%) 0 4px 25px 0, 
+    rgb(0 0 0 / 20%) 0 8px 10px -5px;
+}
+
+.login1 {
+    width: 300px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.headerlogin {
+    margin-bottom: 20px;
+}
+
+.headerlogin h2 {
+    text-align: center;
+    color: rgb(241, 36, 36);
+}
+
+.contens {
+    margin-bottom: 10px;
+}
+
+.textbox {
+    width: 300px;
+    border-bottom: 1px solid black;
+    margin-top: 40px;
+}
+
+.textbox input {
+    border: none;
+    background: none;
+    outline: none;
+    color:black;
+    padding-left: 11px;
+    padding-bottom: 2px;
+    font-family:'Poppins', sans-serif; 
+    width: 300px;
+    font-size: 18px;
+}
+
+.textbox input::placeholder:hover{
+    font-size: 18px;
+}
+
+.signin {
+    text-align: center;
+}
+
+.slogin input.bottom {
+    padding: 12px 120px;
+    background-color: rgb(75, 150, 0);
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(75, 150, 0);
+}
+
+.slogin input:hover {
+    background-color:  rgb(85, 128, 43);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(85, 128, 43) ;
+    transition: 0.4s ease-in-out;
+}
+
+.slogin {
+    margin: 80px 0 20px 0;
+}
